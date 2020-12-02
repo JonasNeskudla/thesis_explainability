@@ -5,7 +5,7 @@ This repository implements a two-step approach for concept drift handling with E
 Since minor adjustments had to be made in the backend depending on the type of data sets being processed, 
 different directories SHAP_approach_synthetic_data, SHAP_approach_real_world and KSWIN_approach were created.
 
-1 ) The directories „SHAP_approach_synthetic_data“ and „SHAP_approach_real_world“ have the same structure:
+1) The directories „SHAP_approach_synthetic_data“ and „SHAP_approach_real_world“ have the same structure:
 - The notebook "backend" contains the functionality to perform the stream processing and drift handling
 - The notebook "execution" starts the drift handling approach and calls functionalities from the backend for this purpose. 
   Performed runs are stored in the form of a "detector object“. Also, a grid search is implemented in this notebook.
